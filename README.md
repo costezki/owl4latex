@@ -3,8 +3,8 @@ LaTeX toolkit for drawing and writing better OWL ontologies and RDF graphs in ge
 
 ## Included tools
 
-* [__tikz-graffoo__](manual-tikz-graffoo.pdf) - a TikZ extension to draw Graffoo diagrams. Graffoo is a tool for drawing OWL ontologies using a simple and well defined visual notation. This library implements the Graffoo visual notation.
-
+* [__tikz-graffoo__](manual-tikz-graffoo.pdf) - a *TikZ* extension to draw Graffoo diagrams. Graffoo is a tool for drawing OWL ontologies using a simple and well defined visual notation. This library implements the Graffoo visual notation.
+* [__listings-owl__](manual-listings-owl.pdf) - a *listings* extension to provide syntax highlighting for SPARQL 1.1 and the most in use OWL syntaxes. This library implements Turtle, Manchester, and Functional-Style syntaxes.
 
 ## Contributing 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
