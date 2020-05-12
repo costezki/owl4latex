@@ -194,6 +194,8 @@
 	morestring=[d]",%literals
 	% treatment of IRIs
 	moredelim=[s][\color{l-yellow-dirty}]{<}{>},% IRIs
+%	moredelim=*[s][\bfseries\color{l-blue-calm}]{\ }{:},
+%	moredelim=*[s][\bfseries\color{l-green}]{:}{\ },
 	alsoletter={\?},%
 	tabsize=3,
 %	literate=	
@@ -754,3 +756,33 @@ xsd:unsignedShort,
 	{[}{{{\color{black}{[}}}}{1}
 	{]}{{{\color{black}{]}}}}{1},
 }[keywords,comments,strings]
+
+
+\lstdefinelanguage{RDF/XML}
+{
+	basicstyle = \ttfamily\footnotesize\color{l-blue-calm},		
+	backgroundcolor=\color{l-gray-pale},
+	sensitive=false,%
+	upquote=true,
+	breaklines=true,
+	breakatwhitespace=true,
+	showstringspaces=false,%	
+    basicstyle=\ttfamily\footnotesize,
+    morestring=[b]",
+    moredelim=[s][\bfseries\color{l-blue-calm}]{<}{\ },
+    moredelim=[s][\bfseries\color{l-blue-calm}]{</}{>},
+    moredelim=[l][\bfseries\color{l-blue-calm}]{/>},
+    moredelim=[l][\bfseries\color{l-blue-calm}]{>},
+    morecomment=[s]{<?}{?>},
+    morecomment=[s]{<!--}{-->},
+    commentstyle=\color{l-teal},
+    stringstyle=\color{l-red-calm},
+    identifierstyle=\color{l-green},
+    %    copied from the JSON definition
+%    numbers=left,
+%    numberstyle=\scriptsize,
+%    stepnumber=1,
+%    numbersep=8pt,
+%    frame=lines,
+%    backgroundcolor=\color{background},    
+}
